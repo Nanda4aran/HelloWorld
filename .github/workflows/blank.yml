@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: maven version
+        run: maven version
+      - name: python version
+        run: python --version
